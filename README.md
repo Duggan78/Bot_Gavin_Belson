@@ -15,7 +15,13 @@ Main Goals:
 
 - List of commands :
 
+Clear
+Shutdown
+invitelink
+ping
 
+
+![Image of Bot Gavin Belson](https://github.com/Duggan78/Bot_Gavin_Belson/blob/master/Gavin-Belson-Bot.PNG)
 
 
 
