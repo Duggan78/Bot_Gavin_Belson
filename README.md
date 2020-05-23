@@ -13,4 +13,17 @@ Main Goals:
 
 -Join/leave messages
 
--Other essential commands that I will add later on.
+- List of commands :
+
+
+
+
+
+
+
+
+
+
+
+
+
