@@ -32,5 +32,22 @@ async def clear(ctx, amount=10):
 async def invitelink(ctx):
     await ctx.send("https://discord.gg/cvWBwj")
 
+@client.command()
+async def ErhlichBachman(ctx):
+    await ctx.send("JINNNNN-YANNNNGGGGG!!!!!!!")
+
+@client.command()
+async def Gilfoyle(ctx):
+    await ctx.send("Makes me feel like I’ve died and gone to hell.")
+
+@client.command()
+async def Gilfoyle2(ctx):
+    await ctx.send("I’m sure you can find your way out with one of your two faces.")
+
+@client.command()
+async def Gilfoyle3(ctx):
+    await ctx.send("I’m effectively leveraging your misery. I’m like the Warren Buffet of f*cking with you.")
+
+
 
 client.run('')
