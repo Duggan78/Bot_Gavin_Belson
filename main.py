@@ -30,7 +30,11 @@ async def clear(ctx, amount=10):
 
 @client.command()
 async def invitelink(ctx):
-    await ctx.send("https://discord.gg/cvWBwj")
+    await ctx.send("https://discord.gg/vnJqump")
+#to do- Going to have users use a command !dm (user) (message) to quick dm people using Gavin Belson.
+@client.command()
+async def dm(ctx):
+    await client
 
 
 client.run('')
