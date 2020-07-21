@@ -1,5 +1,5 @@
 # Bot_Gavin_Belson
- Drank too much Java and died. Re-awaken by the Python.
+ Drank too much Java and died.
  
  A Simple discord bot to satisfy all my needs. 
  
