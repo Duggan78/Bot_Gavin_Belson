@@ -2,8 +2,15 @@ import discord
 import discord.client
 from discord.ext import commands
 import asyncio
+import hypixel
+
+
 
 client = commands.Bot(command_prefix='!')
+
+API_KEYS = ['399ada7a-43ae-4363-a159-7d873f25fba7']
+hypixel.setKeys(API_KEYS)
+Player = hypixel.Player('UHCHighlights')
 
 
 @client.event
@@ -52,6 +59,9 @@ async def Gilfoyle2(ctx):
 async def Gilfoyle3(ctx):
     await ctx.send("I’m effectively leveraging your misery. I’m like the Warren Buffet of f*cking with you.")
 
-
-
-client.run('')
+PlayerName = Player.getName()
+PlayerRank = Player.getRank()
+@client.command()
+async def Stats(ctx):
+    await ctx.send(PlayerRank)
+client.run('NjA5MTk3NTI0NDc3MjgwMjcy.XUzNaA.e7oBJGqOv64GIKo0y_oiaPb0zG0')
